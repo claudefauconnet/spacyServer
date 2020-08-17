@@ -3,8 +3,7 @@ const nlp = spacyNLP.nlp;
 
 
 var nlpServer= {
-
-
+    
     parse:function(text,callback) {
         nlp.parse(text).then(output => {
            // console.log(output);

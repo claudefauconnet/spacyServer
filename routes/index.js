@@ -20,6 +20,8 @@ router.post( + '/nlp', function (req, response) {
 
 
 
+
+
 function processResponse(response, error, result) {
   if (response && !response.finished) {
     /*   res.setHeader('Access-Control-Allow-Origin', '*');
