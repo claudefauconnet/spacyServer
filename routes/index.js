@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.post( + '/nlp', function (req, response) {
+router.post('/nlp', function (req, response) {
 
   if (req.body.parse) {
     nlpServer.parse(req.body.text, function (err, result) {
